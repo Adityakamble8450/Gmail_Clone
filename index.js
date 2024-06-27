@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use('/', route);
 
-// Serve static files from the React app
+// Serve static files from the React app built with Vite
 app.use(express.static(path.join(__dirname, './client/dist')));
 
 app.get('*', function (_, res) {
