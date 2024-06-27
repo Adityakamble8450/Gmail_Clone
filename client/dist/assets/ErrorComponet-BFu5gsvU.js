@@ -1,0 +1,1 @@
+import{u as e,j as r,B as s,T as t}from"./index-BVtsqaoS.js";const n=()=>{const o=e();return console.log(o),r.jsx(s,{style:{marginLeft:250},children:r.jsx(t,{variant:"h4",children:"There was error loading this page"})})};export{n as default};
